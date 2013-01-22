@@ -1,2 +1,2 @@
-default['coldfire']['download_url'] = "https://github.com/downloads/nmische/ColdFire/coldfire_v1.10.207.250.zip"
+default['coldfire']['download_url'] = "http://coldfire.riaforge.org/downloads/coldfire_v1.11.208.251.zip"
 default['coldfire']['ip_list'] = nil
