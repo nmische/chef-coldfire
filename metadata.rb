@@ -5,7 +5,7 @@ description       "Installs ColdFire debugging template."
 version           "0.1.1"
 recipe            "coldfire", "Installs ColdFire debugging template."
 
-%w{ coldfusion10 }.each do |d|
+%w{ coldfusion902 }.each do |d|
   depends d
 end
 

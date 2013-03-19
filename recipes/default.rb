@@ -51,7 +51,7 @@ execute "start_cf_for_coldfire_cf_config" do
   notifies :start, "service[coldfusion]", :immediately
 end
 
-coldfusion10_config "set_colfire_debugging" do
+coldfusion902_config "set_colfire_debugging" do
   action :bulk_set
   config ( { 
       "debugging" => { 
@@ -63,7 +63,7 @@ coldfusion10_config "set_colfire_debugging" do
     } )
 end
 
-coldfusion10_config "debugging" do
+coldfusion902_config "debugging" do
   action :set
   property "IP"
   args ( { "debugip" => node['coldfire']['ip_list'] } )
